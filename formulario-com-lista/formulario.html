@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="body">
+    <h1 class="h1">CADASTRO</h1>
+    <h2 class="h2">- Show de Talentos -</h2>
+    <form id="form" action="#" method="post">
+        <ol type="1">
+            <li>
+                <!-- Nome -->
+                <label class="label" for="name">Nome</label>
+                <br>
+                <input type="text" id="name" name="name">
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- Senha -->
+                <label class="label"  for="password">Senha</label>
+                <br>
+                <input type="text"  id="password" name="password">
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- Repetir Senha -->
+                <label class="label"  for="repet_password">Repita a Senha</label>
+                <br>
+                <input type="text" id="repet_password" name="repet_password">
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- E-mail -->
+                <label class="label"  for="email">E-mail</label>
+                <br>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- Idade -->
+                <label class="label"  for="age">Idade</label>
+                <br>
+                <input type="number" id="age" name="age">
+                <br>
+                <br>
+            </l1>
+            <li>
+                <!-- Sexo -->
+                <label class="label"  for="=sex">Sexo</label>
+                <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label class="label"  for="male">Masculino</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label class="label"  for="female">Feminino</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label class="label"  for="other">Outro</label>
+                <input type="text" id="chosse" name="other_gender">
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- Região do Brasil -->
+                <label class="label"  for="region">Região a representar</label>
+                <br>
+                <select id="region" name="region">
+                <option value=""></option>
+                <option value="n">Norte</option>
+                <option value="ne">Nordeste</option>
+                <option value="co">Centro-Oeste</option>
+                <option value="se">Sudeste</option>
+                <option value="s">Sul</option>
+                </select>
+                <br>
+                <br>
+            </li>
+            <li>
+                <!-- Habilidades -->
+                <label class="label"  for="hability">Habilidades</label>
+                <h3 class="h3">* Marque apenas aquelas em que as pessoas já te elogiaram. Não considere a opinião de sua mãe.<h3>
+                <input type="checkbox" id="sing" name="checkbox" value="1">
+                <label class="label"  for="option">Canto</label>          
+                <input type="checkbox" id="dance" name="checkbox" value="2">
+                <label class="label"  for="option">Dança</label>            
+                <input type="checkbox" id="art" name="checkbox" value="3">
+                <label class="label"  for="option">Arte</label>
+                <input type="checkbox" id="magic" name="checkbox" value="4">
+                <label class="label"  for="option">Mágica</label>
+                <input type="checkbox" id="comedy" name="checkbox" value="5">
+                <label class="label"  for="option">Comédia</label>
+                <br>
+                <br>         
+            </li>
+            <li>
+                <!-- Texto -->
+                <label class="label"  for="message">Fale sobre suas habilidades</label>
+                <br>
+                <textarea id="message" cols="70" rows="20"></textarea>
+                <br>
+                <br>
+            </li>
+
+            <!-- Botão de Envio -->
+            <input class="label"  type="submit" value="Enviar">
+            <br>
+            <br>
+            <!-- Reset -->
+            <button class="label"  type="reset">Limpar</button>
+        </ol>
+    </form>
+    </body>
+</html>
